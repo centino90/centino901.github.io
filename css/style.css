@@ -280,4 +280,10 @@ html {
     font-size: 1rem;
   }
 }
+
+@media (max-height: 400px) {
+  .wrapper {
+    height: 500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
