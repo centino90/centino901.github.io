@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aj's Weather App</title>
+    <link rel="icon" type="image/png" href="./img/weather.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="img-wrapper">
+            <img src="./img/bg1.jpg" alt="">
+        </div>
+
+        <div class="header-text">
+            <h1>Weather App</h1>
+            <img src="./img/weather.svg" alt="">
+        </div>
+
+        <header class="weather-form">
+            <div class="input-wrapper">
+                <input type="text" autocomplete="off" class="search-box" placeholder="Enter country or city...">
+            </div>
+
+            <div class="input-wrapper">
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </header>
+
+        <section class="weather-info">
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp"><span></span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Opensource API from <a target = "_blank" href="https://openweathermap.org/">openweathermap.org</a></p>
+    </footer>
+    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
