@@ -270,4 +270,20 @@ html {
 .footer a {
   color: #fccb90;
 }
+
+@media (max-width: 400px) {
+  .weather-info {
+    top: 38%;
+  }
+  input {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-height: 400px) {
+  .wrapper {
+    height: 500px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
